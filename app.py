@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-model = pickle.load(open('automl_model.pkl', 'rb'))
+model = pickle.load(open('xgboost_model.pkl', 'rb'))
 
 teams = ['Australia',
  'India',
