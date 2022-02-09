@@ -1,4 +1,3 @@
-from numpy.lib.histograms import _histogram_bin_edges_dispatcher
 import streamlit as st
 import pickle
 import pandas as pd
@@ -53,7 +52,7 @@ cities = ['Colombo',
  'Christchurch',
  'Trinidad']
 
-st.title('Cricket Score Predictor for 1st innings')
+st.title('Cricket Score Predictor for 1st Innings')
 
 col1, col2 = st.columns(2)
 
@@ -71,7 +70,7 @@ with col3:
     current_score = st.number_input('Current Score')
 
 with col4:
-    overs = st.number_input('Overs done')
+    overs = st.number_input('Overs bowled')
 
 with col5:
     wickets = st.number_input('Wickets out')
