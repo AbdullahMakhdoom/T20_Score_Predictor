@@ -1,4 +1,4 @@
-# T20_Score_Predictor
+# T20_Score_Predictor 🏏
 -  Trained an XGBoost model for Score prediction in 1st Innings of a T20 match. 
 - Streamlit Web app for single instance Score Prediction. 
 
